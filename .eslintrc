@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true,
+    "es6": true
+  },
+  "plugins": ["react"],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "no-debugger": "off",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "no-console": "off",
+    "no-unused-vars": "off"
+  },
+  "globals": {
+    "__DEV__": true
+  }
+}
